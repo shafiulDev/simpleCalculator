@@ -1,0 +1,39 @@
+.calculator {
+  margin: 0 auto;
+  width: 222px;
+  height: 312px;
+  background-color: rgb(199, 195, 189);
+}
+.calculator:hover {
+    transition:all 0.3s;
+    box-shadow: 5px 5px 5px 5px rgb(146, 142, 142);
+}
+
+
+#inputFild {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+  height: 61px;
+  outline: none;
+  width: 204px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.myBtn {
+  width: 41px;
+  height: 38px;
+}
+.myBtn:active{
+    outline: none;
+}
+.rowValue {
+  margin-top: 10px;
+  margin-left: 21px;
+}
+
+.equalBtn,
+.acBtn{
+    width: 43%;
+}
